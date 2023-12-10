@@ -9,12 +9,12 @@
 	<!--NAV-->
 	<div>
 	  <div>
-	    <ul>
-		  <a href="#home"><li>HOME</li></a>
-		  <a href="#recipes"><li>RECIPES</li></a>
-		  <a href="share_your_recipe"><li>SHARE YOUR RECIPE</li></a>
-		  <a href="contact"><li>CONTACT</li></a>
-		</ul>
+		<nav>
+		  <a href="#home">HOME</a>
+		  <a href="#recipes">RECIPES</a>
+		  <a href="#share_your_recipe">SHARE YOUR RECIPE</a>
+		  <a href="#contact">CONTACT</a>
+		</nav>
 	  </div>
 	</div>
 	<!--END NAV-->
@@ -31,7 +31,7 @@
 	
 	<!--RECIPES-->
 	<section>
-	  <div id="Recipes">
+	  <div id="recipes">
 	    <h1>RECIPES</h1>
 	    <div>
 		
@@ -40,7 +40,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_1.png" alt="One-Pot Vegan Chickpea Curry">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>One-Pot Vegan Chickpea Curry</p>
 			  </div>
 	        </div>
@@ -52,7 +52,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_2.png" alt="Vegan Enchiladas">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Vegan Enchiladas</p>
 			  </div>
 	        </div>
@@ -64,7 +64,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_3.png" alt="Vegan Shepherd's Pie">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Vegan Shepherd's Pie</p>
 			  </div>
 	        </div>
@@ -76,7 +76,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_4.png" alt="Black Bean Quinoa Burger">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Black Bean Quinoa Burger</p>
 			  </div>
 	        </div>
@@ -88,7 +88,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_5.png" alt="Vegan Lentil Loaf">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Vegan Lentil Loaf</p>
 			  </div>
 	        </div>
@@ -100,7 +100,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_6.png" alt="Vegetarian Thai Veggie Burgers">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Vegetarian Thai Veggie Burgers</p>
 			  </div>
 	        </div>
@@ -112,7 +112,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_7.png" alt="Vegan Lentil Soup">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Vegan Lentil Soup</p>
 			  </div>
 	        </div>
@@ -124,7 +124,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_8.png" alt="Veggie Enchiladas with Black Beans, Corn, and Goat Cheese">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Veggie Enchiladas with Black Beans, Corn, and Goat Cheese</p>
 			  </div>
 	        </div>
@@ -136,7 +136,7 @@
 		    <div>
 			  <img src="./images/Thumb/thumbnail_9.png" alt="Curried Red Lentil & Quinoa Bowls with Chutney">
 		      <div>
-			    <h3>Click to enlarge</h3>
+			    <h3>Click to view</h3>
 			    <p>Curried Red Lentil & Quinoa Bowls with Chutney</p>
 			  </div>
 	        </div>
@@ -154,7 +154,7 @@
 	    <div>
 		  <h1>SHARE YOUR RECIPE</h1>
 		  <div>
-    		<h2><span>Email us your recipe and become a part of our creative family!</span></h2>
+    		<h3><span>Email us your recipe at theveggieventures@gmail.com and become a part of our creative family!</span></h3>
 			<div>
 			  <form action="" method="post">
 			    <label class="terms">Terms and Conditions Apply</label>
@@ -171,12 +171,13 @@
 	  <div id="contact">
 	    <div>
 		  <h1>CONTACT</h1>
-		  <form action="" method="post">
-		    <input class="contact" type="text" value="First Name">
-			<input class="contact" type="text" value="Last Name">
-			<input class="contact" type="text" value="Email">
-			<input class="contact" type="text" value="Your Message">
-		    <input type="submit" value="Submit">
+		  <form action="" method="get">
+		     First name: <input type="text" name="First_Name"><br>
+	         Last name: <input type="text" name="Last_Name"><br>
+	         Email: <input type="email" name="email"><br>
+			 Your Message: <input type="text" name="Your_Message"><br>
+			 <input type="submit" value="Submit">
+  
 		  </form>
 		</div>
       </div>
